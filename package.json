@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.0.0",
+    "gatsby-plugin-manifest": "^2.0.13",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.15",

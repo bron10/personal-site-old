@@ -26,6 +26,18 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `sophie-aus-site`,
+        short_name: `sophie`,
+        start_url: `/`,
+        background_color: `#17314c`,
+        theme_color: `#17314c`,
+        display: `minimal-ui`,
+        icon: `favicon.png`, // This path is relative to the root of the site.
+      },
+    },
   ]
 };
