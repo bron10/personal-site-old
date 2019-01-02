@@ -1,0 +1,58 @@
+@import "variables";
+@import "reset";
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: $primary-color;
+  color: $primary-color;
+  font: $body-font;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0.5rem;
+  min-height: calc(100vh - 1rem);
+  width: calc(100vw - 1rem);
+
+  background: $site-bg;
+  border-radius: 0.5rem;
+
+  display: flex;
+}
+
+main {
+  overflow: auto;
+  padding: 4.5rem 4.5rem 0 5rem;
+
+  > div {
+    max-width: 864px;
+  }
+}
+
+h1,
+h2 {
+  font: $headline-font;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  font: $body-font;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@import "main.responsive.scss";

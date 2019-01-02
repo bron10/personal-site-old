@@ -1,0 +1,27 @@
+@import "variables";
+
+.blog-section {
+  padding-bottom: 5rem;
+
+  ul.post-list {
+    padding-left: 2rem;
+    list-style: circle outside;
+    list-style: "–  " outside;
+
+    .post-date {
+      font-family: monospace;
+    }
+  }
+}
+
+@media (min-width: $mobile-breakpoint + 1px) {
+    .blog-section {
+        padding-top: 5rem;
+      }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .mission-statement {
+    display: none;
+  }
+}

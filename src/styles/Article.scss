@@ -1,0 +1,47 @@
+@import "variables";
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background: $primary-color;
+}
+
+:not(pre) > code[class*="language-"] {
+  padding: 0 0.25rem;
+  background: $primary-color;
+}
+
+.article {
+  padding-bottom: 2.5rem;
+
+  .date {
+    padding: 0.5rem 0 1.5rem;
+    font-size: 1rem;
+    color: #646c90;
+    text-transform: uppercase;
+  }
+  > .body {
+    h2 {
+      padding-top: 3rem;
+      font-size: 2.5rem;
+    }
+    p {
+      padding: 0.5rem 0;
+    }
+    ul,
+    ol {
+      padding-left: 2rem;
+      list-style: circle outside;
+    }
+  }
+  hr {
+    margin-top: 2.5rem;
+    width: 70%;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
