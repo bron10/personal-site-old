@@ -21,6 +21,12 @@ pre[class*="language-"] {
     color: #646c90;
     text-transform: uppercase;
   }
+
+  .crosspost {
+    font-style: italic;
+    padding-bottom: 2rem;
+  }
+  
   > .body {
     h2 {
       padding-top: 3rem;

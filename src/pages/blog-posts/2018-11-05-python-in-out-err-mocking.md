@@ -3,6 +3,10 @@ title:  "Mocking stdin, stderr and stdout for python unittest"
 date:   2018-11-05 19:14:58
 categories: python testing
 slug: "python-mock-stdin-stderr-stdout"
+crosspost:
+  url: https://spicyseashells.com/article/python-mock-stdin-stderr-stdout
+  site: "Spicy Sea Shells Blog"
+  prefix: true
 ---
 
 Working on my latest project, [todoster](github.com/sophieau/todoster), forced me to learn all about input/output mocking using python's built-in `unittest` library.
