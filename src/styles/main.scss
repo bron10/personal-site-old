@@ -19,8 +19,8 @@ body {
 
 #root {
   margin: 0.5rem;
-  min-height: calc(100vh - 1rem);
-  width: calc(100vw - 1rem);
+  min-height: calc(100vh - var(--body-margin));
+  width: calc(100vw - var(--body-margin));
 
   background: $site-bg;
   border-radius: 0.5rem;

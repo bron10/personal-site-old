@@ -12,3 +12,7 @@ $body-font: $regular 1.5rem $font-family;
 $widescreen-breakpoint: 1440px;
 $tablet-breakpoint: 1024px;
 $mobile-breakpoint: 640px;
+
+:root {
+  --body-margin: 1rem;
+}
