@@ -3,14 +3,12 @@ import "../styles/Meta.scss";
 import { Dribbble, LinkedIn, GitHub } from "./SocialMediaIcons";
 
 export const Sidebar = () => (
-  <div id="sidebar-wrapper">
-    <div id="sidebar">
-      <div id="sidebar-content">
-        <Header />
-        <SocialMedia />
-      </div>
-      <Copyright />
+  <div id="sidebar">
+    <div id="sidebar-content">
+      <Header />
+      <SocialMedia />
     </div>
+    <Copyright />
   </div>
 );
 

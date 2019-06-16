@@ -12,7 +12,7 @@
 }
 
 @media (max-width: $tablet-breakpoint - 1px) {
-  #root > #sidebar-wrapper {
+  #root > #sidebar {
     display: none;
   }
 
@@ -23,7 +23,6 @@
 
   #root > footer {
     max-width: 16rem;
-    display: block;
     align-self: center;
     width: 100%;
   }
