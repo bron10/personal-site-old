@@ -14,13 +14,13 @@
   }
 }
 
-@media (min-width: $mobile-breakpoint + 1px) {
-    .blog-section {
-        padding-top: 5rem;
-      }
+@media (min-width: $mobile-breakpoint) {
+  .blog-section {
+    padding-top: 5rem;
+  }
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $mobile-breakpoint - 1) {
   .mission-statement {
     display: none;
   }

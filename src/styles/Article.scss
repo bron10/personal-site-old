@@ -12,13 +12,13 @@ pre[class*="language-"] {
   background: $primary-color;
 }
 
-.article {
+#article {
   padding-bottom: 2.5rem;
 
   .date {
     padding: 0.5rem 0 1.5rem;
     font-size: 1rem;
-    color: #646c90;
+    color: $muted-priamry-color;
     text-transform: uppercase;
   }
 
@@ -26,7 +26,7 @@ pre[class*="language-"] {
     font-style: italic;
     padding-bottom: 2rem;
   }
-  
+
   > .body {
     h2 {
       padding-top: 3rem;

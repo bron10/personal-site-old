@@ -8,7 +8,7 @@ import "../styles/Article.scss";
 export default ({ data: { markdownRemark: post } }) => (
   <Layout>
     <HelmetData postTitle={post.frontmatter.title} />
-    <div className="article">
+    <div id="article">
       <Frontmatter frontmatter={post.frontmatter} />
       <PostBody body={post.html} />
       <hr />

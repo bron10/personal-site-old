@@ -4,9 +4,9 @@ import { Dribbble, LinkedIn, GitHub } from "./SocialMediaIcons";
 
 export const Sidebar = () => (
   <div id="sidebar-wrapper">
-    <div id="sidebar-content">
-      <div id="sidebar">
-        <Header id="sidebar-header"/>
+    <div id="sidebar">
+      <div id="sidebar-content">
+        <Header />
         <SocialMedia />
       </div>
       <Copyright />
@@ -15,8 +15,10 @@ export const Sidebar = () => (
 );
 
 export const Header = () => (
-  <header className="header">
-    <a href="/"><h1>Sophie Au</h1></a>
+  <header>
+    <a href="/">
+      <h1>Sophie Au</h1>
+    </a>
     <p>Software Developer, Web Designer, Consultant, Tea Enthusiast</p>
   </header>
 );
@@ -40,7 +42,7 @@ const Copyright = () => (
 );
 
 export const Footer = () => (
-  <footer className="footer">
+  <footer>
     <SocialMedia />
     <Copyright />
   </footer>
