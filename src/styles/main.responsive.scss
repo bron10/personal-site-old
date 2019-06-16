@@ -1,4 +1,4 @@
-@media (min-width: $tablet-breakpoint) {
+@media all and (min-width: $tablet-breakpoint) {
   #root > header,
   #root > footer {
     display: none;
@@ -11,25 +11,19 @@
   }
 }
 
-@media (max-width: $tablet-breakpoint - 1px) {
+@media all and (max-width: $tablet-breakpoint - 1px) {
   #root > #sidebar {
     display: none;
-  }
-
-  #root > header,
-  #root > main {
-    padding: 1.5rem 2.5rem;
-  }
-
-  #root > footer {
-    max-width: 16rem;
-    align-self: center;
-    width: 100%;
   }
 
   #root {
     flex-direction: column;
     height: auto;
+
+    > header,
+    > main {
+      padding: 1.5rem 2.5rem;
+    }
   }
 }
 

@@ -1,9 +1,7 @@
 @import "variables";
 
 #sidebar {
-  --side-padding: 4.5rem;
-  --sidebar-width: 16rem;
-  --total-width: calc(var(--sidebar-width) + 2 * var(--side-padding));
+  --total-width: calc(var(--sidebar-width) + 2 * var(--sidebar-padding));
 
   flex: 1;
   display: flex;
@@ -14,7 +12,7 @@
     flex: 1;
 
     width: var(--sidebar-width);
-    padding: 1rem var(--side-padding) 0;
+    padding: 1rem var(--sidebar-padding) 0;
     border-right: 1px solid $primary-color;
 
     display: flex;
@@ -40,4 +38,10 @@
 .copyright {
   text-align: center;
   padding-bottom: 1rem;
+}
+
+footer {
+  max-width: var(--sidebar-width);
+  align-self: center;
+  width: 100%;
 }
