@@ -1,11 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Title from siteMetadata`
+    title: `Sophie Au`,
+    description: `Sophie Au's Personal Blog.`,
+    author: `Sophie Au`,
+    siteUrl: `https://sophieau.com`
   },
   plugins: [
+    `gatsby-plugin-feed`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,8 +40,8 @@ module.exports = {
         background_color: `#17314c`,
         theme_color: `#17314c`,
         display: `minimal-ui`,
-        icon: `favicon.png`, // This path is relative to the root of the site.
-      },
-    },
+        icon: `favicon.png` // This path is relative to the root of the site.
+      }
+    }
   ]
 };
