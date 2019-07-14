@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import "prismjs/themes/prism-tomorrow.css";
 import Layout from "../layouts";
 import "../styles/Article.scss";
+import { post } from "../strings";
 
 export default ({ data: { markdownRemark: post } }) => (
   <Layout>
@@ -42,8 +43,9 @@ const Frontmatter = ({ frontmatter }) => (
 
 const Crosspost = ({ site, url, prefix }) => (
   <div className="crosspost">
-    This is a crosspost from {prefix && "the "}
-    <a href={url}>{site}</a>.
+    {`${post.crosspost} ${prefix && post.prefix} `}
+    <a href={url}>{site}</a>
+    {`.`}
   </div>
 );
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Meta.scss";
 import { Dribbble, LinkedIn, GitHub } from "./SocialMediaIcons";
+import { meta } from "../strings";
 
 export const Sidebar = () => (
   <div id="sidebar">
@@ -15,9 +16,9 @@ export const Sidebar = () => (
 export const Header = () => (
   <header>
     <a href="/">
-      <h1>Sophie Au</h1>
+      <h1>{meta.name}</h1>
     </a>
-    <p>Software Developer, Web Designer, Consultant, Tea Enthusiast</p>
+    <p>{meta.intro}</p>
   </header>
 );
 
@@ -36,7 +37,9 @@ const SocialMedia = () => (
 );
 
 const Copyright = () => (
-  <p className="copyright">© Sophie Au, {new Date().getFullYear()}</p>
+  <p className="copyright">
+    © {meta.name}, {new Date().getFullYear()}
+  </p>
 );
 
 export const Footer = () => (

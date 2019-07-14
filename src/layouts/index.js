@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Header, Footer, Sidebar } from "../components/Meta.js";
 import "../styles/main.scss";
+import { meta } from "../strings";
 
 const Layout = ({ children }) => (
   <>
@@ -12,7 +13,7 @@ const Layout = ({ children }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <title>Sophie Au</title>
+      <title>{meta.name}</title>
       <meta name="description" content="Homepage of Sophie Au" />
     </Helmet>
     <div id="root">

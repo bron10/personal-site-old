@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../layouts";
 import "../styles/Body.scss";
+import { meta } from "../strings";
 
 export default ({ data }) => (
   <Layout>
@@ -12,13 +13,7 @@ export default ({ data }) => (
 
 const MissionStatement = () => (
   <div className="mission-statement">
-    <p>
-      I truly believe in Dieter Braun's "Less but better". Not just in relation
-      to design but also when it comes to writing software and organisational
-      processes. My number one goal is to delight the customer from day one.
-      Currently, I'm doing this in my role as software developer and consultant
-      at <a href="https://www.thoughtworks.com/">ThoughtWorks</a>.
-    </p>
+    <p>{meta.blurb}</p>
   </div>
 );
 
