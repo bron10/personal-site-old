@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "description": "My site",
+  "description": "My Site",
   "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",
