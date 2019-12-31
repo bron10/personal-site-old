@@ -27,6 +27,6 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-helmet": "^5.2.0",
-    "regenerator-transform": "^0.13.3"
+    "regenerator-transform": "^0.14.1"
   }
 }
