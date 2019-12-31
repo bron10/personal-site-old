@@ -1,7 +1,9 @@
-import React from "react";
-import "../styles/Meta.scss";
-import { Dribbble, LinkedIn, GitHub } from "./SocialMediaIcons";
-import { meta } from "../strings";
+import '../styles/Meta.scss';
+
+import React from 'react';
+
+import { meta } from '../strings';
+import { Dribbble, GitHub, LinkedIn } from './SocialMediaIcons';
 
 export const Sidebar = () => (
   <div id="sidebar">

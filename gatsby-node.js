@@ -1,9 +1,10 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
-  return new Promise((resolve, reject) => {
+  const { createPage } = actions;
+  return new Promise((resolve, _) => {
     graphql(`
       {
         allMarkdownRemark {
@@ -16,31 +17,30 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-    `
-).then(result => {
-      console.log(JSON.stringify(result, null, 4))
+    `).then(result => {
+      console.log(JSON.stringify(result, null, 4));
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
-          path: "article/" + node.frontmatter.slug,
-          component: path.resolve(`./src/templates/post.js`),
+          path: 'article/' + node.frontmatter.slug,
+          component: path.resolve(`./src/templates/post.tsx`),
           context: {
             slug: node.frontmatter.slug,
           },
-        })
-      })
-      resolve()
-    })
-  })
-}
+        });
+      });
+      resolve();
+    });
+  });
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
-}
+};
