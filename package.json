@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "My Site",
   "main": "index.js",
+  "author": "Sophie Au <sophie@sophieau.com>",
+  "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "npm run develop"
   },
-  "author": "Sophie Au <sophie@sophieau.com>",
-  "license": "MIT",
   "dependencies": {
     "gatsby": "^2.11.3",
     "gatsby-plugin-feed": "^2.3.1",
