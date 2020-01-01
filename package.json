@@ -8,11 +8,11 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "format": "prettier --write '{src,data}/**/*.{tsx,ts}'",
+    "format": "prettier --write 'src/**/*.{tsx,ts}'",
     "clean": "gatsby clean",
     "checks": "tsc && npm run lint",
-    "lint": "eslint '{src,data}/**/*.{ts,tsx}' --ignore-pattern '*.d.ts'",
-    "lint:fix": "eslint '{src,data}/**/*.{ts,tsx}' --ignore-pattern '*.d.ts' --fix"
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
     "gatsby": "^2.18.12",
