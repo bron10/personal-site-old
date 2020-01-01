@@ -2,8 +2,8 @@ import '../styles/main.scss';
 
 import React from 'react';
 
-import { Footer, Header, Sidebar } from '../components/Meta.js';
-import SEO from '../components/SEO.js';
+import { Footer, Header, Sidebar } from '../components/Meta';
+import SEO from '../components/SEO';
 import { meta } from '../strings';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (

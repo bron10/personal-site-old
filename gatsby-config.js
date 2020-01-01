@@ -12,14 +12,14 @@ module.exports = {
     `gatsby-plugin-sass`,
     'gatsby-plugin-sharp',
     `gatsby-plugin-typescript`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-csp`,
       options: {
         disableOnDev: false,
         mergeStyleHashes: false,
         directives: {
-          'style-src': "'self' 'unsafe-inline'",
-          'frame-src': 'https://app.commentbox.io',
+          'style-src': "'self' 'unsafe-inline' blob:",
         },
       },
     },
