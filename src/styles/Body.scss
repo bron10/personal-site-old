@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 .blog-section {
   padding-bottom: 5rem;
@@ -6,7 +6,7 @@
   ul.post-list {
     padding-left: 2rem;
     list-style: circle outside;
-    list-style: "–  " outside;
+    list-style: '–  ' outside;
 
     .post-date {
       font-family: monospace;

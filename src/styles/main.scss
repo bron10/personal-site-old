@@ -1,5 +1,5 @@
-@import "variables";
-@import "reset";
+@import 'variables';
+@import 'reset';
 
 :root {
   font-size: 16px;
@@ -61,4 +61,4 @@ a {
   }
 }
 
-@import "main.responsive.scss";
+@import 'main.responsive.scss';
