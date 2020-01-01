@@ -2,8 +2,8 @@ import '../styles/Meta.scss';
 
 import React from 'react';
 
-import { meta } from '../strings';
-import { Dribbble, GitHub, LinkedIn } from './SocialMediaIcons';
+import { config, meta, paths } from '../strings';
+import { Dribbble, GitHub, LinkedIn, Twitter } from './SocialMediaIcons';
 
 export const Sidebar = () => (
   <div id="sidebar">
@@ -17,31 +17,11 @@ export const Sidebar = () => (
 
 export const Header = () => (
   <header>
-    <a href="/">
+    <a href={paths.home}>
       <h1>{meta.name}</h1>
     </a>
     <p>{meta.intro}</p>
   </header>
-);
-
-const SocialMedia = () => (
-  <div className="social-media">
-    <a href="https://www.linkedin.com/in/sophie-au">
-      <LinkedIn />
-    </a>
-    <a href="https://github.com/SophieAu">
-      <GitHub />
-    </a>
-    <a href="https://dribbble.com/solviau">
-      <Dribbble />
-    </a>
-  </div>
-);
-
-const Copyright = () => (
-  <p className="copyright">
-    © {meta.name}, {new Date().getFullYear()}
-  </p>
 );
 
 export const Footer = () => (
@@ -49,4 +29,26 @@ export const Footer = () => (
     <SocialMedia />
     <Copyright />
   </footer>
+);
+
+// TODO: MAKE LIST
+const SocialMedia = () => (
+  <div className="social-media">
+    <a href={config.linkedIn}>
+      <LinkedIn />
+    </a>
+    <a href={config.twitter}>
+      <Twitter />
+    </a>
+    <a href={config.github}>
+      <GitHub />
+    </a>
+    <a href={config.dribbble}>
+      <Dribbble />
+    </a>
+  </div>
+);
+
+const Copyright = () => (
+  <p className="copyright">{meta.copyright({ name: meta.name, date: new Date().getFullYear() })}</p>
 );

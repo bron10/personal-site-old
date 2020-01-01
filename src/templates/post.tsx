@@ -3,42 +3,32 @@ import '../styles/Article.scss';
 
 import { graphql } from 'gatsby';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
+import SEO from '../components/SEO';
 import Layout from '../layouts';
-import { post } from '../strings';
-import { PostFrontmatter, SingleGraphQLResponse } from '../types';
+import { post as string } from '../strings';
+import { SingleGraphQLResponse } from '../types';
 
 const Post: React.FC<SingleGraphQLResponse> = ({ data: { markdownRemark: post } }) => (
   <Layout>
-    <HelmetData postTitle={post.frontmatter.title} />
-    <div id="article">
-      <Frontmatter {...post.frontmatter} />
+    <SEO
+      title={string.pageTitle({ title: post.frontmatter.title })}
+      description={string.pageDescription({ title: post.frontmatter.title })}
+      slug={post.frontmatter.slug}
+    />
+    <article id="article">
+      <h1>{post.frontmatter.title}</h1>
+      <p className="date">{post.frontmatter.date}</p>
+      {!!post.frontmatter.crosspost && (
+        <p className="crosspost">
+          {`${string.crosspost({ hasPrefix: post.frontmatter.crosspost.hasPrefix })} `}
+          <a href={post.frontmatter.crosspost.url}>{post.frontmatter.crosspost.site}</a>
+        </p>
+      )}
       <div className="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
       <hr />
-    </div>
+    </article>
   </Layout>
-);
-
-const HelmetData: React.FC<{ postTitle: string }> = ({ postTitle }) => (
-  <Helmet>
-    <title>{postTitle} | Sophie Au</title>
-    <meta name="description" content={'Homepage of Sophie Au | Blogpost about ' + postTitle} />
-  </Helmet>
-);
-
-const Frontmatter: React.FC<PostFrontmatter> = ({ title, date, crosspost }) => (
-  <>
-    <h1>{title}</h1>
-    <p className="date">{date}</p>
-    {!!crosspost && (
-      <div className="crosspost">
-        {`${post.crosspost} ${crosspost.hasPrefix && post.prefix} `}
-        <a href={crosspost.url}>{crosspost.site}</a>
-        {`.`}
-      </div>
-    )}
-  </>
 );
 
 export const query = graphql`

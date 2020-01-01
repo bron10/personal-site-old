@@ -26,7 +26,7 @@ export type SingleGraphQLResponse = {
   };
 };
 
-export type PostFrontmatter = {
+type PostFrontmatter = {
   title: string;
   date: string;
   slug: string;

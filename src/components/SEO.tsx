@@ -1,9 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-const SITE_LANG = 'en';
-const TWITTER_URL = '@SolviAu';
-const BASE_URL = 'https://sophieau.com';
+import { BASE_URL, TWITTER_URL } from '../strings';
 
 interface Props {
   title: string;
@@ -15,7 +13,7 @@ interface Props {
 const SEO: React.FC<Props> = ({ title, description, slug, children }) => (
   <Helmet
     htmlAttributes={{
-      lang: SITE_LANG,
+      lang: 'en',
       prefix: 'og: http://ogp.me/ns#',
     }}
     title={title}
