@@ -28,6 +28,10 @@
   padding-bottom: 1.5rem;
   line-height: 0;
 
+  > li {
+    margin: 0;
+  }
+
   svg {
     height: 2rem;
     width: auto;

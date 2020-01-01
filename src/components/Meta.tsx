@@ -31,22 +31,29 @@ export const Footer = () => (
   </footer>
 );
 
-// TODO: MAKE LIST
 const SocialMedia = () => (
-  <div className="social-media">
-    <a href={config.linkedIn}>
-      <LinkedIn />
-    </a>
-    <a href={config.twitter}>
-      <Twitter />
-    </a>
-    <a href={config.github}>
-      <GitHub />
-    </a>
-    <a href={config.dribbble}>
-      <Dribbble />
-    </a>
-  </div>
+  <ul className="social-media">
+    <li>
+      <a href={config.linkedIn}>
+        <LinkedIn />
+      </a>
+    </li>
+    <li>
+      <a href={config.twitter}>
+        <Twitter />
+      </a>
+    </li>
+    <li>
+      <a href={config.github}>
+        <GitHub />
+      </a>
+    </li>
+    <li>
+      <a href={config.dribbble}>
+        <Dribbble />
+      </a>
+    </li>
+  </ul>
 );
 
 const Copyright = () => (
