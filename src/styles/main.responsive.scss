@@ -1,5 +1,5 @@
 @media all and (min-width: $tablet-breakpoint) {
-  #root > header,
+  #root > .header,
   #root > footer {
     display: none;
   }
@@ -20,7 +20,7 @@
     flex-direction: column;
     height: auto;
 
-    > header,
+    > .header,
     > main {
       padding: 1.5rem 2.5rem;
     }
@@ -28,7 +28,7 @@
 }
 
 @media (max-width: $mobile-breakpoint - 1px) {
-  #root > header,
+  #root > .header,
   #root > main {
     padding: 1.5rem;
   }

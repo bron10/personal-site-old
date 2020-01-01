@@ -6,17 +6,17 @@ import { config, meta, paths } from '../strings';
 import { Dribbble, GitHub, LinkedIn, Twitter } from './SocialMediaIcons';
 
 export const Sidebar = () => (
-  <div id="sidebar">
+  <header id="sidebar">
     <div id="sidebar-content">
       <Header />
       <SocialMedia />
     </div>
     <Copyright />
-  </div>
+  </header>
 );
 
 export const Header = () => (
-  <header>
+  <header className="header">
     <a href={paths.home}>
       <h1>{meta.name}</h1>
     </a>
