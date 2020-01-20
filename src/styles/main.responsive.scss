@@ -9,6 +9,10 @@
     flex-direction: row;
     height: calc(100vh - var(--body-margin));
   }
+
+  .copyright {
+    width: calc(var(--sidebar-width) + 2 * var(--sidebar-padding));
+  }
 }
 
 @media all and (max-width: $tablet-breakpoint - 1px) {
