@@ -1,5 +1,5 @@
 ---
-title: My Tech Stach (April '20)
+title: My Tech Stack (April '20)
 date: 2020-04-05
 categories: web-dev javascript
 slug: "tech-stack"
