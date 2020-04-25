@@ -1,8 +1,8 @@
 ---
 title: "Custom React Hooks"
-date: 2020-05-10
+date: 2020-05-17
 categories: react
-slug: "custom hooks"
+slug: "custom-hooks"
 ---
 
 Hooks are nice. I like hooks. Which means there can never be enough of them. So here's how to build your own.
