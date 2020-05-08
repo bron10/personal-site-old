@@ -1,6 +1,7 @@
 ---
 title:	"Releasing a Command-Line App to PyPI When It Really Doesn't Want You To"
 date:	2018-05-30
+updated:	2018-05-30
 categories: python pypi
 slug: "pypi-release"
 ---

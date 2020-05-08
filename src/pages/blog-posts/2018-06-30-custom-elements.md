@@ -1,6 +1,7 @@
 ---
 title:	"How to Write and Use a Simple Custom Element in 5 Minutes"
 date:	2018-06-30
+updated:	2018-06-30
 categories: web-development javascript custom-elements
 slug: "custom-elements"
 ---

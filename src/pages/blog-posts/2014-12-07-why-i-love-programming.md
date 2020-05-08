@@ -1,6 +1,7 @@
 ---
 title: "Why I Love Programming"
 date: 2014-12-07
+updated: 2014-12-07
 categories: coding java
 slug: "why-programming"
 ---

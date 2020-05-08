@@ -1,6 +1,7 @@
 ---
 title:  "Imperial Splendour Launcher - The Requirements"
 date:   2016-01-31
+updated:   2016-01-31
 categories: empire-total-war
 slug: "is-launcher-requirements"
 ---

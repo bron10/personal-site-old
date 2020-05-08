@@ -1,6 +1,7 @@
 ---
 title: Website Launch Checklist
 date: 2020-03-29
+updated: 2020-03-29
 categories: web web-dev
 slug: "website-checklist"
 ---

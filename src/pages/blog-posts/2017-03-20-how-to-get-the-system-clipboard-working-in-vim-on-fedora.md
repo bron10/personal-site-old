@@ -1,6 +1,7 @@
 ---
 title:  "How to get the System Clipboard working in Vim on Fedora"
 date:   2017-03-20
+updated:   2017-03-20
 categories: vim linux fedora ricing
 slug: "clipoard-vim-fedora"
 ---

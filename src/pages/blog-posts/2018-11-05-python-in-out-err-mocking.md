@@ -1,6 +1,7 @@
 ---
 title:  "Mocking stdin, stderr and stdout for python unittest"
-date:   2018-11-05 19:14:58
+date:   2018-11-05
+updated:   2018-11-05
 categories: python testing
 slug: "python-mock-stdin-stderr-stdout"
 crosspost:

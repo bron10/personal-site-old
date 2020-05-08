@@ -1,6 +1,7 @@
 ---
 title: "React Hooks: useImperativeHandle"
 date: 2020-05-10
+updated: 2020-05-10
 categories: react
 slug: "use-imperative-handle"
 ---

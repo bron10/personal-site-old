@@ -1,6 +1,7 @@
 ---
 title: "Custom React Hooks"
 date: 2020-05-17
+updated: 2020-05-17
 categories: react
 slug: "custom-hooks"
 ---

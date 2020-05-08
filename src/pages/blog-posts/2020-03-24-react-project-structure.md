@@ -1,6 +1,7 @@
 ---
 title: React Project Structure
 date: 2020-03-24
+updated: 2020-03-24
 categories: javascript react
 slug: "react-project-structure"
 ---

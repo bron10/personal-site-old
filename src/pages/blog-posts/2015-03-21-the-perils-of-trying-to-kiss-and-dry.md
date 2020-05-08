@@ -1,6 +1,7 @@
 ---
 title:  "The Perils of Trying to KISS and DRY"
 date:   2015-03-21
+updated:   2015-03-21
 categories: java coding
 slug: "kiss-and-dry"
 ---

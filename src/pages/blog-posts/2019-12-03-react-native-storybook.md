@@ -1,6 +1,7 @@
 ---
 title:  "Setting up Storybook for React Native"
-date:   2019-12-03 18:14:58
+date:   2019-12-03
+updated:   2019-12-03
 categories: react react-native typescript storybook
 slug: "react-native-storybook"
 crosspost:

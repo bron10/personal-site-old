@@ -1,6 +1,7 @@
 ---
 title:  "Adding WebP Support to your Gatsby Project"
-date:   2020-02-21 18:14:58
+date:   2020-02-21
+updated:   2020-02-21
 categories: react gatsby javascript
 slug: "gatsby-webp"
 ---

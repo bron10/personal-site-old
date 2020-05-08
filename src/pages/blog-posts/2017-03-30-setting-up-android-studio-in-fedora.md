@@ -1,6 +1,7 @@
 ---
 title:  "Setting up Android Studio on Fedora"
 date:   2017-03-20
+updated:   2017-03-20
 categories: linux fedora android android-studio 
 slug: "android-studio-fedora"
 ---

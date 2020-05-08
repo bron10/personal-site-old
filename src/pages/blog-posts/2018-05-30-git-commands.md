@@ -1,6 +1,7 @@
 ---
 title:	"The Only 11 Git Commands You Really Need"
 date:	2018-05-30
+updated:	2018-05-30
 categories: git
 slug: "git-commands"
 ---

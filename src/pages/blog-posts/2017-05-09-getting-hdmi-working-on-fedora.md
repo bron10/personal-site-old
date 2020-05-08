@@ -1,6 +1,7 @@
 ---
 title:  "Getting HDMI audio working on Fedora"
 date:   2017-05-09
+updated:   2017-05-09
 categories: linux fedora
 slug: "hdmi-fedora"
 ---

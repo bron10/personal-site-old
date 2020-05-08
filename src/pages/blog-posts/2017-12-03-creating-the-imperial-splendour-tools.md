@@ -1,6 +1,7 @@
 ---
 title: "How the Imperial Splendour tool package came to be"
 date: 2017-12-03
+updated: 2017-12-03
 categories: empire-total-war open-source
 slug: "is-launcher-framework"
 ---

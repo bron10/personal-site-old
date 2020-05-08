@@ -1,6 +1,7 @@
 ---
 title: Typing React Components
 date: 2020-04-12
+updated: 2020-04-12
 categories: react typescript
 slug: "typing-react-components"
 ---

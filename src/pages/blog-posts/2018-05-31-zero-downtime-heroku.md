@@ -1,6 +1,7 @@
 ---
 title:	"Setting Up Zero-Downtime Deployment On Heroku"
 date:	2018-05-31
+updated:	2018-05-31
 categories: heroku continuous-delivery devops
 slug: "zero-downtime-deploy-heroku"
 ---

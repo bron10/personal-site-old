@@ -1,6 +1,7 @@
 ---
 title: HOC vs Render Prop vs Hook
 date: 2020-04-19
+updated: 2020-04-19
 categories: react
 slug: "hoc-renderprop-hook"
 ---

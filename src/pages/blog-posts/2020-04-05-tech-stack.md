@@ -1,6 +1,7 @@
 ---
 title: My Tech Stack (April '20)
 date: 2020-04-05
+updated: 2020-04-09
 categories: web-dev javascript
 slug: "tech-stack"
 ---

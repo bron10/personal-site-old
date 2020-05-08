@@ -1,6 +1,7 @@
 ---
 title: "React State"
 date: 2020-05-24
+updated: 2020-05-24
 categories: react
 slug: "react-state"
 ---

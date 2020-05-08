@@ -1,6 +1,7 @@
 ---
 title:  "Setting up Ruby and Rails on Fedora"
 date:   2017-04-05
+updated:   2017-04-05
 categories: linux fedora ruby rails mysql 
 slug: "ruby-rails-fedora"
 ---
