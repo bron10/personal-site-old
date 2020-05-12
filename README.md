@@ -1,12 +1,15 @@
 <h1 align="center">
-  Sophie Au's Website
+  This is Bron10's personal website
 </h1>
 
-This is the website of Sophie Au, built with [Gatsby](https://www.gatsbyjs.org/).
+ Special thanks to [Sophie Au](https://sophieau.com/) 
 
 ## 🚀 Quick start
+Make sure you have [gatsby-cli](https://www.npmjs.com/package/gatsby-cli) and [yarn](https://classic.yarnpkg.com/en/docs/install) installed on your local machine. If not install using
+following command.
+    `npm install -g gatsby-cli`
 
-1.  **Run `yarn install`.**
+**Run `yarn install`.**
 
 1.  **Run the Development Build.**
 

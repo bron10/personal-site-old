@@ -1,9 +1,9 @@
 export const meta = {
-  name: 'Sophie Au',
-  siteDescription: 'Homepage of Sophie Au',
-  intro: 'Software Developer, Web Designer, Tea Enthusiast',
-  blurb: `I truly believe in Dieter Braun's "Less but better". Not just in relation to design but also when it comes to writing software and organisational processes. My number one goal is to delight the customer from day one. Currently, I'm doing this in my role as software engineer at Donut.`,
-  copyright: ({ name, date }: { name: string; date: number }) => `© ${name}, ${date}`,
+  name: 'Bruno Dmello',
+  siteDescription: 'Homepage of Bruno Dmello',
+  intro: 'Web Dev, Fullstack forever',
+  blurb: `Architect for quality, Build to sustain, Fail fast and Repeat to Learn`,
+  copyright: ({ name, date }: { name: string; date: number }) => `powered by ® webvictory`,
 };
 
 export const home = {
@@ -13,20 +13,19 @@ export const home = {
 export const post = {
   crosspost: ({ hasPrefix }: { hasPrefix: boolean }) =>
     `This is a crosspost from${hasPrefix ? ' the' : ''}`,
-  pageTitle: ({ title }: { title: string }) => `${title} | Sophie Au`,
+  pageTitle: ({ title }: { title: string }) => `${title} | Bruno Dmello`,
   pageDescription: ({ title }: { title: string }) =>
-    `Homepage of Sophie Au | Blogpost about ${title}`,
+    `Homepage of Bruno Dmello | Blogpost about ${title}`,
 };
 
 export const config = {
-  linkedIn: 'https://www.linkedin.com/in/sophie-au',
-  twitter: 'https://twitter.com/SolviAu',
-  github: 'https://github.com/SophieAu',
-  dribbble: 'https://dribbble.com/solviau',
+  linkedIn: 'https://www.linkedin.com/in/bruno-dmello',
+  twitter: 'https://twitter.com/bruno_dmello',
+  github: 'https://github.com/bron10'
 };
 
-export const TWITTER_URL = '@SolviAu';
-export const BASE_URL = 'https://sophieau.com';
+export const TWITTER_URL = '@bruno_dmello';
+export const BASE_URL = 'http://placeholder.com';
 
 export const paths = {
   home: '/',

@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Sophie Au',
-    description: "Sophie Au's Personal Blog.",
-    author: 'Sophie Au',
-    siteUrl: 'https://sophieau.com',
+    title: 'Bruno Dmello',
+    description: "Bruno's Personal Blog.",
+    author: 'bron10',
+    siteUrl: 'http://localhost:8000',
   },
   plugins: [
     'gatsby-plugin-feed',
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'sophie-aus-site',
-        short_name: 'sophie',
+        name: 'bron10-site',
+        short_name: 'bron10',
         start_url: '/',
         background_color: '#17314c',
         theme_color: '#17314c',

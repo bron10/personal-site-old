@@ -19,12 +19,12 @@ const Post: React.FC<SingleGraphQLResponse> = ({ data: { markdownRemark: post } 
     <article id="article">
       <h1>{post.frontmatter.title}</h1>
       <p className="date">{post.frontmatter.date}</p>
-      {!!post.frontmatter.crosspost && (
+      {/* {!!post.frontmatter.crosspost && (
         <p className="crosspost">
           {`${string.crosspost({ hasPrefix: post.frontmatter.crosspost.hasPrefix })} `}
           <a href={post.frontmatter.crosspost.url}>{post.frontmatter.crosspost.site}</a>
         </p>
-      )}
+      )} */}
       <div className="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
       <hr />
     </article>
@@ -39,11 +39,6 @@ export const query = graphql`
         title
         date(formatString: "DD MMMM YYYY")
         slug
-        crosspost {
-          site
-          url
-          hasPrefix
-        }
       }
     }
   }

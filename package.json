@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "1.0.0",
   "description": "My Site",
-  "author": "Sophie Au <sophie@sophieau.com>",
+  "author": "Bron10 <bron1010@gmail.com>",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

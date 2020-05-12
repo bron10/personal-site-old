@@ -3,7 +3,7 @@ import '../styles/Meta.scss';
 import React from 'react';
 
 import { config, meta, paths } from '../strings';
-import { Dribbble, GitHub, LinkedIn, Twitter } from './SocialMediaIcons';
+import {  GitHub, LinkedIn, Twitter } from './SocialMediaIcons';
 
 export const Sidebar = () => (
   <header id="sidebar">
@@ -46,11 +46,6 @@ const SocialMedia = () => (
     <li>
       <a href={config.github}>
         <GitHub />
-      </a>
-    </li>
-    <li>
-      <a href={config.dribbble}>
-        <Dribbble />
       </a>
     </li>
   </ul>

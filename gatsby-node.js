@@ -19,7 +19,7 @@ exports.createPages = ({ graphql, actions }) =>
   new Promise((resolve, _) => {
     graphql(QUERY).then(result => {
       console.log(JSON.stringify(result, null, 4));
-
+      
       const nodes = result.data.allMarkdownRemark.edges;
       nodes.forEach(({ node }) => {
         actions.createPage({
